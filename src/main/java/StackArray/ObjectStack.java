@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Remember, you might need to resize the stack in the push method.
  * @param <E>
  */
-public class ObjectStack<E> {
+public class ObjectStack<E> extends GenericStack  {
     private Object[] elements;
 
     public ObjectStack() {
